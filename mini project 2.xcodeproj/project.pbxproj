@@ -14,6 +14,8 @@
 		BD4DA4BB2865091A00B4E1D1 /* mini_project_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD4DA4B92865091A00B4E1D1 /* mini_project_2.xcdatamodeld */; };
 		BD4DA4BD2865091C00B4E1D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4DA4BC2865091C00B4E1D1 /* Assets.xcassets */; };
 		BD4DA4C02865091C00B4E1D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4DA4BE2865091C00B4E1D1 /* LaunchScreen.storyboard */; };
+		BD4DA4C828660D3900B4E1D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DA4C728660D3900B4E1D1 /* SecondViewController.swift */; };
+		BD4DA50028663E0800B4E1D1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DA4FF28663E0800B4E1D1 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BD4DA4BC2865091C00B4E1D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD4DA4BF2865091C00B4E1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD4DA4C12865091C00B4E1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4DA4C728660D3900B4E1D1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BD4DA4FF28663E0800B4E1D1 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +65,13 @@
 				BD4DA4B02865091A00B4E1D1 /* AppDelegate.swift */,
 				BD4DA4B22865091A00B4E1D1 /* SceneDelegate.swift */,
 				BD4DA4B42865091A00B4E1D1 /* ViewController.swift */,
+				BD4DA4C728660D3900B4E1D1 /* SecondViewController.swift */,
 				BD4DA4B62865091A00B4E1D1 /* Main.storyboard */,
 				BD4DA4BC2865091C00B4E1D1 /* Assets.xcassets */,
 				BD4DA4BE2865091C00B4E1D1 /* LaunchScreen.storyboard */,
 				BD4DA4C12865091C00B4E1D1 /* Info.plist */,
 				BD4DA4B92865091A00B4E1D1 /* mini_project_2.xcdatamodeld */,
+				BD4DA4FF28663E0800B4E1D1 /* ThirdViewController.swift */,
 			);
 			path = "mini project 2";
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 				BD4DA4B52865091A00B4E1D1 /* ViewController.swift in Sources */,
 				BD4DA4B12865091A00B4E1D1 /* AppDelegate.swift in Sources */,
 				BD4DA4B32865091A00B4E1D1 /* SceneDelegate.swift in Sources */,
+				BD4DA4C828660D3900B4E1D1 /* SecondViewController.swift in Sources */,
+				BD4DA50028663E0800B4E1D1 /* ThirdViewController.swift in Sources */,
 				BD4DA4BB2865091A00B4E1D1 /* mini_project_2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +301,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "mini project 2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = QT;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "mini project 2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = QT;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
